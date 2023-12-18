@@ -1,0 +1,108 @@
+body {
+  background-image: url(/../img/rain.gif);
+}
+.container {
+  margin-top: 130px;
+  width: 65%;
+  opacity: 0.85;
+}
+
+#place {
+  font-size: 20px;
+}
+form {
+  padding: 20px;
+}
+
+.btn {
+  width: 100%;
+}
+
+#temp_link {
+  color: rgb(3, 3, 73);
+  text-decoration: none;
+}
+#temp_link:hover {
+  color: brown;
+}
+
+.place-time-date {
+  width: 20%;
+  padding-left: 20px;
+  padding-top: 20px;
+  margin-left: 10px;
+}
+
+.main_info {
+  font-size: 16px;
+}
+.img {
+  font-size: 80px;
+}
+.left {
+  text-align: right;
+}
+.weather_description {
+  position: relative;
+  top: -10px;
+  left: -10px;
+}
+
+.right {
+  padding-top: 50px;
+  font-size: xx-large;
+}
+.minmax {
+  font-size: 14px;
+  position: relative;
+  top: -20px;
+}
+.f {
+  font-size: 16px;
+}
+.basic_info {
+  text-align: center;
+  margin-top: 20px;
+}
+.today_forecast {
+  font-size: small;
+}
+
+.days {
+  text-align: center;
+  font-size: 16px;
+  margin-top: 20px;
+  padding-bottom: 20px;
+
+  padding: 10px;
+}
+
+.days:hover {
+  box-shadow: 2px 2px 2px;
+  border-radius: 30px;
+  border: 2px rgb(198, 183, 183) solid;
+  background-color: rgb(198, 183, 183);
+  transform: translateY(-10px);
+}
+.card {
+  border-radius: 30px;
+  background-color: rgb(236, 222, 222);
+}
+
+.day1,
+.day2,
+.day3,
+.day4 {
+  margin-right: 15px;
+}
+.day {
+  font-size: larger;
+}
+
+.days_temp {
+  font-size: x-small;
+}
+
+.fig {
+  font-size: xx-large;
+}
